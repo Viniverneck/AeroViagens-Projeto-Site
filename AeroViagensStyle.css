@@ -7,7 +7,7 @@
     display: flex; 
     align-items: center;
     justify-content: left;
-    padding: 30px;
+    padding: 20px;
     gap: 40px;
 }
 
@@ -55,15 +55,59 @@ font-size: 20px;
 
 .section-01 {
 
-    background-color: #66ffff;
+    background-color: #ddd53e;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 100px;
-    gap: 40px;
+    padding: 70px;
+    gap: 100px;
 }
 
 .img-section-01 {
 
-    width: 600px;
+    width: 310px;
 }
+
+.section-01 p {
+
+    font-size: 30px;
+    text-align: justify;
+}
+
+/*inicio da Estilização da Section-02*/
+
+.section-02 {
+
+    background-color: #fff538;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fa-solid {
+
+font-size: 35px;
+padding: 5px;
+
+}
+
+.paragrafo-section-02 {
+
+    font-size: 20px;
+}
+ /*Iniciando Estilização section-03*/
+
+ .section-03 {
+    background-image: url(Imagens/Dicas-nordeste.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top;
+    background-attachment: fixed;
+    padding: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
