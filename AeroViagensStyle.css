@@ -111,3 +111,21 @@ padding: 5px;
     align-items: center;
     justify-content: center;
  }
+
+ .section-03 div {
+display: flex;
+align-items: center;
+justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+ }
+
+ .button-section-03 {
+
+    background-color:#fff538;
+    color: #0e0677;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+ }
