@@ -123,9 +123,100 @@ justify-content: center;
  .button-section-03 {
 
     background-color:#fff538;
-    color: #0e0677;
-    font-size: 20px;
+    color: #000000;
+    font-size: 15px;
     font-weight: bold;
     
+    
+
+ }
+
+ /* inicio da estilização da section-04 */
+
+ .section-04 div {
+width: 300px;
+height:400px ;
+background-color: #009ddd;
+padding: 40px;
+text-align: justify;
+border-radius: 20px;
+text-align: center;
+
+ }
+
+ .section-04 {
+background-color: #fff538;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 60px;
+gap: 30px;
+
+ }
+
+ /* Estilização Quadro 01 | section-04 */
+ .div-quadro-01 {
+
+font-size: 20px;
+font-weight: 300px;
+
+ }
+
+ .div-quadro-01 h2 {
+font-size: 25px;
+margin-top: 30px;
+
+ }
+
+ .img-disney {
+
+    width: 300px;
+ }
+
+
+/* Estilização Quadro 02 | section-04 */
+
+ .div-quadro-02 {
+
+    background-image: url(Imagens/ChatGPT\ Image\ 12\ de\ mar.\ de\ 2026\,\ 19_28_49.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+ }
+
+ /* Estilização Quadro 03 | section-04 */
+
+ .div-quadro-03 {
+
+    font-size: 20px;
+    font-weight: 300px;
+ }
+
+
+ .img-agente-viagem {
+
+    width: 100px;
+ }
+
+ .fa-whatsapp {
+
+    font-size: 100px;
+
+ }
+
+ /* Estilização Rodapé */
+
+ footer {
+
+    background-color: #fff538;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 60px;
+ }
+
+ .fa-brands {
+    font-size: 30px
 
  }
