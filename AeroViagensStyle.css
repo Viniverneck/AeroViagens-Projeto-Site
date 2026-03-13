@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 /*Estilização do Header*/
@@ -61,6 +66,14 @@ font-size: 20px;
     justify-content: space-evenly;
     padding: 70px;
     gap: 100px;
+}
+
+.div-texto-01 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .img-section-01 {
@@ -208,12 +221,12 @@ margin-top: 30px;
 
  footer {
 
-    background-color: #fff538;
+    background-color: #ddd53e;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 60px;
+    padding: 20px;
  }
 
  .fa-brands {

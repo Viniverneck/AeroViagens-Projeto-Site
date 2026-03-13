@@ -4,52 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AeroViagens</title>
+    <title>AeroViagens - Passagens</title>
     <link rel="shortcut icon" href="Imagens/viagens-pelo-mundo.png" type="img-logo-aba">
-    <link rel="stylesheet" href="AeroViagensStyle.css">
     <script src="https://kit.fontawesome.com/3366136395.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="Rodoviaria_style.css">
+    <link rel="stylesheet" href="Passagens.css">
 </head>
 
 <body>
+    <main>
 
-    <header>
+        <header class="cabecalho">
             <!-- Imagem Cabeçalho -->
             <div class="img-logo-cabecalho">
                 <img src="Imagens/viagens-pelo-mundo.png" alt="img-logo-Cabecalho" class="img-cabecalho">
             </div>
-    
+
             <!-- Titulo Cabeçalho - Nome da Empresa -->
             <div class="div-nome-empresa">
-                <h1>AERO<span><img src="Imagens/aviao.png" alt="img-aviao" class="img-aviao"></span>VIAGENS</h1>
+                <h1>AERO<span><img src="Imagens/aviao.png" alt="img-aviao" class="img-aviao"></span>VIAGENS</h1><br>
+
+                <h2>Confira o Horario do seu voo</h2>
             </div>
+        </header>
 
-            <h2>Confira o Horario do seu voo</h2>
-    </header> <br>
 
-    <main>
 
-        <section>
+        <section class="section-01-tabela">
             <table border="1" width="100%" height="50" style=" color: black;">
 
                 <tr class="Cabecario">
+                    <th>ORIGEM</th>
                     <th>DESTINO</th>
-                    <th>Hora da saída</th>
-                    <th>Hora de chegada</th>
-                    <th>Aeroporto</th>
-                    <th>Numero do voo</th>
-                    <th>Compania aerea</th>
+                    <th>HORA DE SAIDA/HORA DE CHEGADA</th>
+                    <th>NUMERO DO VOO</th>
+                    <th>COMPANHIA AÉREA</th>
                 </tr>
 
 
                 <!-- CIDADE A -->
                 <tr class="SP">
                     <th>São Paulo/SP</th>
-                    <td>06:00</td>
-                    <td>14:00</td>
-                    <td>Convencional</td>
-                    <td>20,00</td>
-                    <td>Diária</td>
+                    <th>Natal</th>
+                    <td>08:30 / 11:30</td>
+                    <td>VOO383</td>
+                    <td>GOL</td>
                 </tr>
 
 
@@ -57,14 +55,11 @@
 
                 <!-- CIDADE B -->
                 <tr>
-                    <th>
-                        <a class="titulos" href="https://www.youtube.com/" target="_blank">Porto Alegre</a>
-                    </th>
-                    <td>12:00</td>
-                    <td>15:00</td>
-                    <td>Convencional</td>
-                    <td>10,00</td>
-                    <td>Domingos</td>
+                    <th>Porto Alegre/RS</th>
+                    <th>São Paulo</th>
+                    <td>10:30 / 14:20</td>
+                    <td>VOO252</td>
+                    <td>GOL</td>
                 </tr>
 
 
@@ -74,32 +69,32 @@
                 <!-- CIDADE C -->
                 <tr class="RJ">
                     <th>Rio de Janeiro/RJ</th>
-                    <td>14:00</td>
-                    <td>17:00</td>
-                    <td>Leito</td>
-                    <td>15,00</td>
-                    <td>Diária</td>
+                    <th>Porto Alegre</th>
+                    <td>17:00 / 20:00</td>
+                    <td>VOO555</td>
+                    <td>LATAM</td>
+
                 </tr>
 
 
                 <!-- CIDADE D -->
                 <tr>
                     <th>Curitiba/PR</th>
-                    <td>16:00</td>
-                    <td>17:00</td>
-                    <td>Convencional</td>
-                    <td>10,00</td>
-                    <td>Diária</td>
+                    <th>São Paulo</th>
+                    <td>16:00 / 18:30</td>
+                    <td>VOO658</td>
+                    <td>GOL</td>
+
                 </tr>
 
                 <!-- CIDADE E -->
                 <tr class="JoaoPessoa">
                     <th>João Pessoa/PB</th>
-                    <td>18:30</td>
-                    <td>20:00</td>
-                    <td>Executivo</td>
-                    <td>30,00</td>
-                    <td>Domingos</td>
+                    <th>Rio de janeiro</th>
+                    <td>20:00 / 23:00</td>
+                    <td>VOO125</td>
+                    <td>LATAM</td>
+
                 </tr>
 
 
@@ -107,22 +102,22 @@
 
                 <tr>
                     <th>Florianópolis/SC</th>
-                    <td>20:00</td>
-                    <td>23:00</td>
-                    <td>Convencional</td>
-                    <td>26,00</td>
-                    <td>Sábados</td>
+                    <th>Salvador</th>
+                    <td>23:00 / 02:00</td>
+                    <td>VOO564</td>
+                    <td>GOL</td>
+
                 </tr>
 
                 <!-- CIDADE G -->
 
                 <tr class="Linha-Vitoria">
                     <th>Vitória/ES</th>
-                    <td>21:00</td>
-                    <td>23:30</td>
-                    <td>Convencional</td>
-                    <td>26,00</td>
-                    <td>Diária</td>
+                    <th>Goias</th>
+                    <td>12:00 / 15:00</td>
+                    <td>VOO989</td>
+                    <td>LATAM</td>
+
                 </tr>
 
 
@@ -130,18 +125,18 @@
 
                 <tr>
                     <th>Belo Horizonte/MG</th>
-                    <td>22:00</td>
-                    <td>23:00</td>
-                    <td>Executivo</td>
-                    <td>16,00</td>
-                    <td>Diária</td>
+                    <th>São Paulo</th>
+                    <td>20:00 / 21:30</td>
+                    <td>VOO555</td>
+                    <td>GOL</td>
+
                 </tr>
 
 
 
 
                 <tr>
-                    <td colspan="6">Horários de ônibus</td>
+                    <th colspan="6">Verifique aqui o Horario do seu Voo</th>
                 </tr>
 
 
@@ -149,7 +144,7 @@
             </table>
         </section>
 
-        <section>
+        <section class="section-02-passagem">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/JJ3VzRiKAq4?si=1bRU5E2b6OV6ozsF"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -162,19 +157,39 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
 
-<section class="Rodape">
+        <section class="Section-03-passagem">
 
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci modi, necessitatibus quod quidem recusandae laboriosam voluptatibus, mollitia hic itaque dicta omnis iusto magni reiciendis laborum similique aliquam numquam possimus. Ex.</p>
-    <h2>Titulo</h2>
-    <Div>
-        <p>Texto que será estilizado</p>
-    </Div>
-</section>
+            <h2>Atenção!</h2><br>
+
+            <div class="div-atencao">
+                <ul>
+
+                    <li>Chegue no aeroporto com 2 horas de antecedência.</li>
+                    <li>Faça o check-in online para adiantar.</li>
+                    <li>Peça um carro de aplicativo com antecedência.</li>
+                    <li>Veja se sua bagagem está
+                        no padrão das companhias aéreas.</li>
+                </ul>
+            </div>
+
+
+
+        </section>
     </main>
 
 
     <footer>
-        <img src="" alt="">
+        <h1>AERO<span><img src="Imagens/aviao.png" alt="img-aviao" class="img-aviao"></span>VIAGENS</h1><br>
+
+        <p>® 2026 Todos os Direitos Reservados</p><br>
+
+        <div class="div-icon-section-04">
+            <i class="fa-brands fa-square-whatsapp"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
     </footer>
 
 

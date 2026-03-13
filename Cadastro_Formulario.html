@@ -4,69 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>AeroViagens - Cadastro</title>
+    <link rel="shortcut icon" href="Imagens/viagens-pelo-mundo.png" type="img-logo-aba">
+    <link rel="stylesheet" href="AeroViagensStyle.css">
+    <script src="https://kit.fontawesome.com/3366136395.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Cadastro_Formulario.css">
 </head>
 
 
 <body>
+    <main>
+        <!-- Titulo do formulario -->
+        <div class="div-nome-empresa">
+            <h1>AERO<span><img src="Imagens/aviao.png" alt="img-aviao" class="img-aviao"></span>VIAGENS</h1><br>
 
-    <!-- Titulo do formulario -->
-    <div class="div-nome-empresa">
-        <h1>AERO<span><img src="Imagens/aviao.png" alt="img-aviao" class="img-aviao"></span>VIAGENS</h1>
+            <!-- Titulo do formulario -->
+            <h2>Ficha de Cadastro - Preencha as informações abaixo.</h2>
+        </div>
+        <section class="section-cad-01">
+            <div>
+                <form action="">
+                    <!-- inicio do formulario  -->
+                    <label for="">Nome:</label>
+                    <input type="text" placeholder="Digite seu nome">
+                    <br><br>
+
+                    <label for="">Email:</label>
+                    <input type="email" placeholder="Digite seu email">
+                    <br><br>
+
+                    <label for=""> Endereço:</label>
+                    <input type="text" placeholder="Digite seu endereço">
+                    <br><br>
+
+                    <Label for="Cidade:">Cidade:</Label>
+                    <select name="Cidade" id="Cidade">
+                        <option value="Selecione a Cidade">Selecione a Cidade</option>
+                        <option value="São Paulo/SP">São Paulo/SP</option>
+                        <option value="Rio de Janeiro/RJ">Rio De Janeiro/RJ</option>
+
+                    </select>
+                    <br><br>
+
+                    <label for="Telefone:">Telefone:</label>
+                    <Select>
+                        <Option value="DDD">DDD</Option>
+                        <Option value="(11)">(11)</Option>
+                        <Option value="(12)">(12)</Option>
+                        <Option value="(13)">(13)</Option>
+                    </Select>
+                    <input type="number" placeholder="99999-9999">
+                    <br><br>
+
+                    <label for="Usuario:">Usuário:</label>
+                    <input type="email" placeholder="Entre com seu login">
+                    <br><br>
+
+
+                    <label for="">Senha:</label>
+                    <input type="password" placeholder="Digite sua senha">
+                    <br><br>
+                    
+                        <input type="submit" value="Finalizar minha inscrição" class="button-div">
+                        <input type="reset" value="Limpar Formulário" class="button-div">
+                       
+                        <button><a href="AeroViagens.html"  class="button-div">Voltar Tela Inicial</a></button>
+                    
+                </form>
+            </div>
+    </main>
+    </section>
+
+    <footer>
+
+        <h1>AERO<span><img src="Imagens/aviao.png" alt="img-aviao" class="img-aviao"></span>VIAGENS</h1><br>
+
+        <p>® 2026 Todos os Direitos Reservados</p><br>
+
+        <div class="div-icon-section-04">
+            <i class="fa-brands fa-square-whatsapp"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-tiktok"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+
+    </footer>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
     </div>
-
-    <!-- Titulo do formulario -->
-    <h2>Ficha de Cadastro - Preencha as informações abaixo.</h2>
-
-
-    <form action="">
-        <!-- inicio do formulario  -->
-        <label for="">Nome:</label>
-        <input type="text" placeholder="Digite seu nome">
-        <br><br>
-
-        <label for="">Email:</label>
-        <input type="email" placeholder="Digite seu email">
-        <br><br>
-
-        <label for=""> Endereço:</label>
-        <input type="text" placeholder="Digite seu endereço">
-        <br><br>
-
-        <Label for="Cidade:">Cidade:</Label>
-        <select name="Cidade" id="Cidade">
-            <option value="Selecione a Cidade">Selecione a Cidade</option>
-            <option value="São Paulo/SP">São Paulo/SP</option>
-            <option value="Rio de Janeiro/RJ">Rio De Janeiro/RJ</option>
-
-        </select>
-        <br><br>
-
-        <label for="Telefone:">Telefone:</label>
-        <Select>
-            <Option value="DDD">DDD</Option>
-            <Option value="(11)">(11)</Option>
-            <Option value="(12)">(12)</Option>
-            <Option value="(13)">(13)</Option>
-        </Select>
-        <input type="number" placeholder="99999-9999">
-        <br><br>
-
-        <label for="Usuario:">Usuário:</label>
-        <input type="email" placeholder="Entre com seu login">
-        <br><br>
-
-
-        <label for="">Senha:</label>
-        <input type="password" placeholder="Digite sua senha">
-        <br><br>
-
-       <input type="submit" value="Finalizar minha inscrição">
-        <input type="reset" value="Limpar Formulário">
-        <button><a href="AeroViagens.html">Voltar Tela Inicial</a></button>
-       
-    </form>
-
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 </body>
 
 </html>

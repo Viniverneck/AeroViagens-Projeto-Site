@@ -1,0 +1,76 @@
+*{
+
+    margin: 0;
+    padding-bottom: 0;
+}
+
+/*Estilização do Header*/
+
+.cabecalho {
+    background-color: #fff538;/*Cor do Fundo Header*/
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.img-cabecalho {
+
+    width: 80px;
+}
+
+.div-nome-empresa {
+font-family: "Archivo Black";
+font-size: 15px;
+}
+
+.img-aviao {
+    width: 50px;
+}
+
+.section-01-tabela {
+
+    background-color: #fff538;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.section-02-passagem {
+
+    background-color: #ddd53e;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Section-03-passagem {
+
+      background-color: #fff538;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+}
+
+.div-atencao {
+
+    font-size: 20px;
+}
+
+ footer {
+
+    background-color: #ddd53e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+ }
+.fa-brands {
+    font-size: 30px
+
+ }

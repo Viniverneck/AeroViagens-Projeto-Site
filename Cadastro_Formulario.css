@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+   padding: 0;
+
+}
+
+.div-nome-empresa {
+
+    background-color: #fff538;
+    padding: 5px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.section-cad-01 {
+
+    background-color: #fff538;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.section-cad-01 div {
+    width: 500px;
+    height: 280px;
+    background-color: #c9c135;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.button-div{
+    background-color: #000000;
+    text-decoration: none;
+    color: #fff538;
+    font-weight: bold;
+    border:solid #000000
+    
+}
+
+ footer {
+
+    background-color: #ddd53e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+ }
+.fa-brands {
+    font-size: 30px
+
+ }
