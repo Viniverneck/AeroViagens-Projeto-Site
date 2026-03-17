@@ -29,6 +29,8 @@ font-size: 15px;
     width: 50px;
 }
 
+/* Iniciao da Estilização da Section 01 tabela */
+
 .section-01-tabela {
 
     background-color: #fff538;
@@ -36,6 +38,7 @@ font-size: 15px;
     display: flex;
     align-items: center;
 }
+/* Iniciao da Estilização da Section 02 Passagem */
 
 .section-02-passagem {
 
@@ -45,6 +48,8 @@ font-size: 15px;
     align-items: center;
     justify-content: center;
 }
+
+/* Iniciao da Estilização da Section 03 Passagem */
 
 .Section-03-passagem {
 
@@ -61,6 +66,7 @@ font-size: 15px;
     font-size: 20px;
 }
 
+/* Iniciao da Estilização do Rpdapé Passagens */ 
  footer {
 
     background-color: #ddd53e;

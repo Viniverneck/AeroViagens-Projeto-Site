@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -7,23 +7,42 @@
 
 /*Estilização do Header*/
 
+* {
+    scroll-behavior: smooth;
+}
+
+#sobrenos {
+
+    scroll-margin-top: 120px;
+}
+
 .cabecalho {
-    background-color: #fff538;/*Cor do Fundo Header*/
-    display: flex; 
+    background-color: #fff538;
+    /*Cor do Fundo Header*/
+    display: flex;
     align-items: center;
     justify-content: left;
     padding: 20px;
     gap: 40px;
+    position: sticky;
+    /*deixar o header fixo no top da tela*/
+    top: 0;
+    /*deixar o header fixo | Define que o elemento ficará preso ao topo da tela*/
+    left: 0;
+    /*deixar o header fixo | Define o alinhamento a esquerda da pagina, mantendo 0px de distancia*/
+    z-index: 1;
+    /*Para nenhum ficar sobre-pondo o header | Controla a sobreposição do elemento sobre outros elementos da pagina*/
 }
 
 .img-cabecalho {
 
     width: 80px;
+   
 }
 
 .div-nome-empresa {
-font-family: "Archivo Black";
-font-size: 20px;
+    font-family: "Archivo Black";
+    font-size: 20px;
 
 }
 
@@ -33,9 +52,10 @@ font-size: 20px;
 
 /*Etilização da Lista do Header*/
 
-.ul-lista-header li{
+.ul-lista-header li {
 
     list-style: none;
+    margin-left: 50px;
 
 }
 
@@ -53,6 +73,13 @@ font-size: 20px;
     font-weight: bolder;
 
 }
+
+.ul-lista-header li a:hover {
+
+    color: #009ddd;
+    text-decoration-line: underline;
+}
+
 
 /*Fim da Estilização do Header*/
 
@@ -74,12 +101,15 @@ font-size: 20px;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+    margin-bottom: 10px;
 }
 
 .img-section-01 {
 
     width: 310px;
+    box-shadow: 10px 10px 20px black;
 }
+
 
 .section-01 p {
 
@@ -102,124 +132,140 @@ font-size: 20px;
 
 .fa-solid {
 
-font-size: 35px;
-padding: 5px;
-
+    font-size: 35px;
+    padding: 5px;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.589)
 }
+
+.fa-solid:hover {
+
+    text-shadow: 0px 0px 0px black
+}
+
 
 .paragrafo-section-02 {
 
     font-size: 20px;
 }
- /*Iniciando Estilização section-03*/
 
- .section-03 {
+/*Iniciando Estilização section-03*/
+
+.section-03 {
     background-image: url(Imagens/Dicas-nordeste.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:top;
+    background-position: top;
     background-attachment: fixed;
-    padding: 200px;
+    padding: 170px;
     display: flex;
     align-items: center;
     justify-content: center;
- }
+}
 
- .section-03 div {
-display: flex;
-align-items: center;
-justify-content: center;
+.section-03 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 50px;
- }
+}
 
- .button-section-03 {
+.button-section-03 {
 
-    background-color:#fff538;
+    background-color: #fff538;
     color: #000000;
     font-size: 15px;
     font-weight: bold;
-    
-    
 
- }
 
- /* inicio da estilização da section-04 */
+}
 
- .section-04 div {
-width: 300px;
-height:400px ;
-background-color: #009ddd;
-padding: 40px;
-text-align: justify;
-border-radius: 20px;
-text-align: center;
+.button-section-03:hover {
+    background-color: #000000;
+    color: #fff538;
+}
 
- }
+/* inicio da estilização da section-04 */
 
- .section-04 {
-background-color: #fff538;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 60px;
-gap: 30px;
+.section-04 div {
+    width: 300px;
+    height: 400px;
+    background-color: #009ddd;
+    padding: 40px;
+    text-align: justify;
+    border-radius: 20px;
+    text-align: center;
+box-shadow: 10px 10px 20px black;
+}
 
- }
+.section-04 div:hover {
 
- /* Estilização Quadro 01 | section-04 */
- .div-quadro-01 {
+ box-shadow: 15px 15px 25px black
+}
 
-font-size: 20px;
-font-weight: 300px;
+.section-04 {
+    background-color: #fff538;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    gap: 30px;
 
- }
+}
 
- .div-quadro-01 h2 {
-font-size: 25px;
-margin-top: 30px;
+/* Estilização Quadro 01 | section-04 */
+.div-quadro-01 {
 
- }
+    font-size: 20px;
+    font-weight: 300px;
 
- .img-disney {
+}
+
+.div-quadro-01 h2 {
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+
+.img-disney {
 
     width: 300px;
- }
+}
 
 
 /* Estilização Quadro 02 | section-04 */
 
- .div-quadro-02 {
+.div-quadro-02 {
 
     background-image: url(Imagens/ChatGPT\ Image\ 12\ de\ mar.\ de\ 2026\,\ 19_28_49.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
- }
+}
 
- /* Estilização Quadro 03 | section-04 */
+/* Estilização Quadro 03 | section-04 */
 
- .div-quadro-03 {
+.div-quadro-03 {
 
     font-size: 20px;
     font-weight: 300px;
- }
+}
 
 
- .img-agente-viagem {
+.img-agente-viagem {
 
     width: 100px;
- }
+}
 
- .fa-whatsapp {
+.fa-whatsapp {
 
     font-size: 100px;
 
- }
+}
 
- /* Estilização Rodapé */
+/* Estilização Rodapé */
 
- footer {
+footer {
 
     background-color: #ddd53e;
     display: flex;
@@ -227,9 +273,8 @@ margin-top: 30px;
     justify-content: center;
     flex-direction: column;
     padding: 20px;
- }
+}
 
- .fa-brands {
+.fa-brands {
     font-size: 30px
-
- }
+}
