@@ -1,15 +1,20 @@
 * {
+    /*Estilização universal*/
     margin: 0;
+    /*Removendo os espaçamentos laterais e superiores*/
     padding: 0;
+    /*Desabilitando preeenchimento aplicado por padrão*/
+    scroll-behavior: smooth;
+    /*Transição universal no scrool*/
+    list-style: none;
+    /*Removendo estilo de lista*/
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 
 /*Estilização do Header*/
 
-* {
-    scroll-behavior: smooth;
-}
+
 
 #sobrenos {
 
@@ -37,7 +42,7 @@
 .img-cabecalho {
 
     width: 80px;
-   
+
 }
 
 .div-nome-empresa {
@@ -48,6 +53,13 @@
 
 .img-aviao {
     width: 50px;
+}
+
+span {
+
+    font-size: 30px;
+    font-weight: bold;
+
 }
 
 /*Etilização da Lista do Header*/
@@ -71,13 +83,16 @@
     color: hsl(0, 0%, 0%);
     font-size: 20px;
     font-weight: bolder;
-
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.589)
 }
 
+/*HOVER ação do mouse sobre os elementos*/
 .ul-lista-header li a:hover {
 
-    color: #009ddd;
+    color: #000000;
     text-decoration-line: underline;
+    text-shadow: 0px 0px 0px#000000;
+    transition: 0.8s;
 }
 
 
@@ -108,6 +123,8 @@
 
     width: 310px;
     box-shadow: 10px 10px 20px black;
+    /*Sombra da caixa*/
+
 }
 
 
@@ -115,6 +132,24 @@
 
     font-size: 30px;
     text-align: justify;
+}
+/*alterando tamnho da imagem do whatsapp*/
+.whatsapp img { 
+    width: 50px;
+}
+/*alterando posição da imagem do whatsapp*/
+.whatsapp {
+
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+}
+
+
+
+.whatsapp :hover {
+width: 60px;
+transition: 0.8s;
 }
 
 /*inicio da Estilização da Section-02*/
@@ -139,7 +174,8 @@
 
 .fa-solid:hover {
 
-    text-shadow: 0px 0px 0px black
+    text-shadow: 0px 0px 0px black;
+    transition: 0.8s;
 }
 
 
@@ -172,17 +208,20 @@
 
 .button-section-03 {
 
-    background-color: #fff538;
-    color: #000000;
-    font-size: 15px;
+    background-color: #000000;
+    color: #fff538;
+    font-size: 13px;
     font-weight: bold;
+    border-radius: 15px;
+    padding: 10px;
 
 
 }
 
 .button-section-03:hover {
-    background-color: #000000;
-    color: #fff538;
+    background-color: #fff538;
+    color: #000000;
+    transition: 0.8s;
 }
 
 /* inicio da estilização da section-04 */
@@ -195,12 +234,13 @@
     text-align: justify;
     border-radius: 20px;
     text-align: center;
-box-shadow: 10px 10px 20px black;
+    box-shadow: 10px 10px 20px black;
 }
 
 .section-04 div:hover {
 
- box-shadow: 15px 15px 25px black
+    box-shadow: 15px 15px 25px black;
+    transition: 0.8s;
 }
 
 .section-04 {
